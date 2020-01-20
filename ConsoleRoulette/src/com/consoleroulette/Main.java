@@ -77,7 +77,6 @@ public class Main {
             Scanner myReader = new Scanner(myObj);
             while (myReader.hasNextLine()) {
                 String data = myReader.nextLine();
-              //System.out.println(data);
             }
             myReader.close();
 	}
