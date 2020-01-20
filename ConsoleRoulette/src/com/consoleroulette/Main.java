@@ -34,7 +34,7 @@ public class Main {
     }    
     
     public static void winnings(){  
-        System.out.println("Player\t\tBarbaraTotal Win\tTotal Bet"); 
+        System.out.println("Player\t\tTotal Win\tTotal Bet"); 
         System.out.println(String.format("---"));
                
         for (Map.Entry<String, Player> entry : players.entrySet()) {
